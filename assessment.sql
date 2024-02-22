@@ -1,0 +1,58 @@
+select * from employee
+--insert into employee values('20','Finn','Muller','12.05.67','M','85000')
+--select * from employee
+--insert into employee values('21','Lucas','Schmidt','30.08.72','M','200000'),
+                           --('22','Jonas','Fischer','01.01.83','M','65000')
+						   --('23','Ella','Weber','22.05.64','F','1700000'),
+						   --('24','Ida','Wagner','07.03.07','F','900000'),
+						   --('25','Ben','Schneider','25.08.73','M','720000'),
+						   --('26','Oliver','Brown','02.03.89','M','199000'),
+						   --('27','Leonie','Williams','07.07.77','F','80000'),
+						   --('28','Lea','Zimmerman','05.12.83','F','62000');
+--select * from employee
+--create table branch(barnch_id int,barnch_name varchar(20),mgr_id int,mgr_start_date date);
+--select * from branch
+--insert into branch values('1','Insurance','20','06.02.22'),
+                         --('2','Account','22','01.04.22'), 
+	      --('3','Energy','26','24.02.19');
+--select * from branch
+--CREATE TABLE branch_supplier(barnch_id int,supplier_name varchar(20)NOT NULL,supply_type varchar(20));
+--select * from branch_supplier
+--insert into branch_supplier values('1','S_Direkt','Insurance'),
+                         --('1','Inshared','Insurance'), 
+	       --('2','Deutsche_Bank','Credit'),
+	      --('2','Commerzbank','Credit'),
+	    --('3','Ostrom','Renewable'),
+	 --('3','E.On_Energy','Electricity');
+--select * from branch_supplier
+--create table client(client_id int unique,first_name varchar(20),last_name varchar(20),barch_id int);
+--select * from client
+--insert into client values('10','Daniel','Maier','2'),
+                         --('11','Ella','Alter','2'), 
+	       -- ('12','Zhang','Wei','1'),
+	      --('13','Ivan','Kirillov','3'),
+	      --('14','John','Smith','3'),
+	      --('15','Dirk','Pelletr','1'),
+	     --('16','Tobias','Roth','1'),
+	    --('27','Leonie','Williams','1');
+--select * from client
+--alter table employee add column super_id varchar(20);
+--alter table employee add column branch_id int
+--select * from employee
+--create table works_with(emp_id int,cliend_id int,total_sales int);
+--insert into works_with values('28','14','120000'),
+                       --('22','15','6000'),
+	    --('20','15','6000'),
+	   --('25','16','55000'),
+	   --('21','11','400000');
+--UPDATE employee
+--SET salary = 
+  --CASE branch_id
+   --WHEN 1 THEN salary + (salary * 0.10)
+   --ELSE salary
+  --END
+--select * from employee
+--update client
+--set last_name = 'Shan'
+--where client_id='12'
+select * from client
